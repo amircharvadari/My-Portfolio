@@ -20,8 +20,7 @@ export default function About() {
                         AI solutions
                     </h2>
                     <p className="about__bio">
-                        I am an AI Engineer and a third-year Artificial Intelligence student
-                        at Bahçeşehir University. My journey began in Medicine, where I spent
+                        I am an AI Engineer. My journey began in Medicine, where I spent
                         2.5 years developing a deep understanding of biological systems before
                         pivoting to my true passion: Computer Science and AI. This unique
                         background allows me to approach healthcare challenges with a
