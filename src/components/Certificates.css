@@ -1,0 +1,118 @@
+.certificates {
+    padding: var(--section-padding);
+}
+
+.certificates__header {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.certificates__label {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent-primary);
+    margin-bottom: 1rem;
+    padding: 0.4rem 1rem;
+    background: rgba(124, 92, 252, 0.08);
+    border: 1px solid rgba(124, 92, 252, 0.15);
+    border-radius: 100px;
+}
+
+.certificates__title {
+    font-family: var(--font-heading);
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.75rem;
+}
+
+.certificates__subtitle {
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+}
+
+.certificates__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1rem;
+}
+
+.certificates__card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem 1.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--border-radius);
+    transition: var(--transition-smooth);
+    cursor: pointer;
+}
+
+.certificates__card:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--border-accent);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-glow);
+}
+
+.certificates__card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.certificates__card-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.certificates__card-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.certificates__card-title {
+    font-family: var(--font-heading);
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.certificates__card-issuer {
+    color: var(--text-secondary);
+    font-size: 0.88rem;
+}
+
+.certificates__card-date {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+
+.certificates__card-arrow {
+    color: var(--text-muted);
+    flex-shrink: 0;
+    transition: var(--transition-fast);
+}
+
+.certificates__card:hover .certificates__card-arrow {
+    color: var(--accent-primary);
+    transform: translate(2px, -2px);
+}
+
+@media (max-width: 768px) {
+    .certificates__grid {
+        grid-template-columns: 1fr;
+    }
+}

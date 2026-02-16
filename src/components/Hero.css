@@ -1,0 +1,204 @@
+.hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 6rem 2rem 4rem;
+}
+
+.hero__particles {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.hero__bg-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.hero__bg-orb--1 {
+    width: 500px;
+    height: 500px;
+    background: rgba(124, 92, 252, 0.12);
+    top: -10%;
+    right: -5%;
+    animation: float 8s ease-in-out infinite;
+}
+
+.hero__bg-orb--2 {
+    width: 400px;
+    height: 400px;
+    background: rgba(92, 225, 230, 0.08);
+    bottom: -10%;
+    left: -5%;
+    animation: float 10s ease-in-out infinite reverse;
+}
+
+.hero__bg-orb--3 {
+    width: 300px;
+    height: 300px;
+    background: rgba(124, 92, 252, 0.06);
+    top: 40%;
+    left: 30%;
+    animation: float 12s ease-in-out infinite 2s;
+}
+
+/* Profile image */
+.hero__image-wrapper {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.hero__image-glow {
+    position: absolute;
+    inset: -20px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(124, 92, 252, 0.2) 0%, transparent 70%);
+    animation: float 6s ease-in-out infinite;
+    z-index: 0;
+}
+
+.hero__image-border {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 4px;
+    background: var(--accent-gradient);
+    box-shadow: 0 0 40px rgba(124, 92, 252, 0.2), 0 0 80px rgba(124, 92, 252, 0.1);
+}
+
+.hero__image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Buttons */
+.hero__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.85rem 2rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 100px;
+    transition: var(--transition-fast);
+}
+
+.hero__btn--primary {
+    background: var(--accent-gradient);
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(124, 92, 252, 0.3);
+}
+
+.hero__btn--primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(124, 92, 252, 0.4);
+}
+
+.hero__btn--primary svg {
+    transition: var(--transition-fast);
+}
+
+.hero__btn--primary:hover svg {
+    transform: translate(2px, -2px);
+}
+
+.hero__btn--secondary {
+    background: var(--bg-glass);
+    color: var(--text-primary);
+    border: 1px solid var(--border-subtle);
+    backdrop-filter: blur(10px);
+}
+
+.hero__btn--secondary:hover {
+    background: var(--bg-glass-hover);
+    border-color: var(--border-accent);
+    transform: translateY(-2px);
+}
+
+/* Scroll indicator */
+.hero__scroll-indicator {
+    position: absolute;
+    bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.hero__scroll-mouse {
+    width: 24px;
+    height: 38px;
+    border: 2px solid var(--text-muted);
+    border-radius: 12px;
+    position: relative;
+}
+
+.hero__scroll-wheel {
+    width: 3px;
+    height: 8px;
+    background: var(--accent-primary);
+    border-radius: 2px;
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: scrollWheel 2s ease-in-out infinite;
+}
+
+@keyframes scrollWheel {
+    0% {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-50%) translateY(14px);
+    }
+}
+
+@keyframes pulse-glow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 5px rgba(74, 222, 128, 0.3);
+    }
+
+    50% {
+        box-shadow: 0 0 15px rgba(74, 222, 128, 0.6);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 5rem 1.25rem 3rem;
+    }
+
+    .hero__image-border {
+        width: 160px;
+        height: 160px;
+    }
+
+    .hero__scroll-indicator {
+        display: none;
+    }
+}
