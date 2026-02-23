@@ -96,7 +96,7 @@ export default function Hero() {
 
                 {/* Subtitle */}
                 <p className="text-[clamp(1rem,1.8vw,1.15rem)] text-[var(--text-secondary)] leading-relaxed max-w-lg mx-auto animate-in animate-in-delay-3">
-                    AI Engineer crafting intelligent solutions with LLMs, cloud infrastructure, and scalable AI-driven applications.
+                    An AI Engineering student crafting intelligent solutions with LLMs, cloud infrastructure, and scalable AI-driven applications.
                 </p>
 
                 {/* Buttons */}
