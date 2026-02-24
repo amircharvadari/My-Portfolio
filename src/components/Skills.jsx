@@ -19,11 +19,12 @@ const skills = [
         ),
     },
     {
-        name: 'Next.js',
+        name: 'SQL',
         icon: (
-            <svg viewBox="0 0 128 128" width="32" height="32">
-                <circle cx="64" cy="64" r="64" fill="white" />
-                <path fill="#000" d="M106.317 112.014L49.167 38.4H38.4v51.179h8.614v-40.24l52.626 67.86a64.216 64.216 0 006.677-5.185zM81.824 38.4h8.533v51.2h-8.533z" />
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="#2496ED" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
             </svg>
         ),
     },
