@@ -18,6 +18,22 @@ const skills = [
             </svg>
         ),
     },
+        {
+        name: 'R',
+        icon: (
+            <svg viewBox="0 0 128 128" width="32" height="32">
+                <defs>
+                    <linearGradient id="r-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stopColor="#CBCED0" />
+                        <stop offset="100%" stopColor="#84838B" />
+                    </linearGradient>
+                </defs>
+                <path fill="url(#r-grad)" d="M64 12C29.1 12 4 30.5 4 53.4c0 22.9 25.1 41.4 60 41.4 7.3 0 14.3-.8 20.7-2.3l19.6 23.3c1.1 1.3 3.2.2 2.7-1.4l-6.8-25.2C114.4 80.8 124 67.8 124 53.4 124 30.5 98.9 12 64 12z" />
+                <path fill="#276DC3" d="M64 19.6c-28.7 0-52 16.7-52 37.2s23.3 37.2 52 37.2c6.3 0 12.4-.7 18.1-2.1l.6-.2.4.5 14.3 17-5-18.4-.3-1 .8-.7C105.6 79.6 116 68.5 116 56.8c0-20.5-23.3-37.2-52-37.2z" />
+                <text x="52" y="72" fontFamily="Arial,sans-serif" fontWeight="700" fontSize="48" fill="white">R</text>
+            </svg>
+        ),
+    },
     {
         name: 'SQL',
         icon: (
