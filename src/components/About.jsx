@@ -20,19 +20,10 @@ export default function About() {
                         AI solutions
                     </h2>
                     <p className="about__bio">
-                        I am an AI Engineer and a third-year Artificial Intelligence student
-                        at Bahçeşehir University. My journey began in Medicine, where I spent
-                        2.5 years developing a deep understanding of biological systems before
-                        pivoting to my true passion: Computer Science and AI. This unique
-                        background allows me to approach healthcare challenges with a
-                        data-driven, engineering mindset.
+                        Curiosity is what got me here. It pulled me out of medical school after two years and dropped me into AI Engineering at Bahçeşehir University — where I've been all in since semester one.
                     </p>
                     <p className="about__bio">
-                        I specialize in designing high-performance algorithms—ranging from C++
-                        data pipelines to NP-hard optimization problems like the Metric TSP.
-                        Beyond core engineering, I am dedicated to building full-stack AI
-                        applications that solve real-world problems in education and finance,
-                        leveraging tools like Next.js, Python, and the Gemini API.
+                        I'm wired for depth over breadth — one real conversation beats ten shallow ones, and one shipped project beats a hundred half-finished ideas. These days I'm building production-grade AI systems in Python and the cloud, going deep on fine-tuning and agentic architectures. I read business and psychology in parallel, because great products are half engineering, half understanding people. Quiet builder, fast learner, obsessed with turning AI into things that actually create value.
                     </p>
                 </div>
 

@@ -40,6 +40,16 @@ const projects = [
         ],
         link: 'https://github.com/amircharvadari/Neurocourier-tsp-aco-sa',
     },
+    {
+        title: 'WhatsApp AI Agent',
+        description: 'An intelligent WhatsApp assistant built with n8n, powered by OpenAI GPT-4o, featuring Pinecone RAG, Google Calendar integration, and automated daily reporting.',
+        tags: ['n8n', 'OpenAI', 'Pinecone', 'WhatsApp API'],
+        categories: [
+            { label: 'AI', color: '#1d71f8ff' },
+            { label: 'Automation', color: '#0a888aff' },
+        ],
+        link: 'https://github.com/amircharvadari/whatsapp-ai-agent-n8n',
+    },
 ]
 
 export default function Projects() {
