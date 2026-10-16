@@ -114,7 +114,7 @@ export default function Hero() {
                         </svg>
                     </a>
                     <a href="#contact" className="hero__btn hero__btn--secondary">
-                        Got in tush
+                        Get in Touch
                     </a>
                 </div>
             </div>
