@@ -50,6 +50,26 @@ const projects = [
         ],
         link: 'https://github.com/amircharvadari/whatsapp-ai-agent-n8n',
     },
+    {
+        title: 'Reliable MLOps Pipeline',
+        description: 'Building an end-to-end MLOps pipeline with data versioning, experiment tracking, automated testing, CI/CD, and containerized model deployment, plus validation and performance monitoring workflows.',
+        tags: ['Python', 'MLflow', 'DVC', 'Docker', 'FastAPI', 'GitHub Actions'],
+        categories: [
+            { label: 'MLOps', color: '#0a888aff' },
+            { label: 'AI', color: '#1d71f8ff' },
+        ],
+        link: 'https://github.com/amircharvadari',
+    },
+    {
+        title: 'Intelligent Query Filtering for RAG',
+        description: 'Designing an intelligent RAG system that uses a decision model to route queries between document retrieval and direct LLM responses, optimizing response quality, latency, and computational cost.',
+        tags: ['Python', 'LLMs', 'RAG', 'Vector Databases'],
+        categories: [
+            { label: 'AI', color: '#1d71f8ff' },
+            { label: 'In Progress', color: '#e16105ff' },
+        ],
+        link: 'https://github.com/amircharvadari',
+    },
 ]
 
 export default function Projects() {

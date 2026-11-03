@@ -23,7 +23,7 @@ export default function About() {
                         Curiosity is what got me here. It pulled me out of medical school after two years and dropped me into AI Engineering at Bahçeşehir University — where I've been all in since semester one.
                     </p>
                     <p className="about__bio">
-                        I'm wired for depth over breadth — one real conversation beats ten shallow ones, and one shipped project beats a hundred half-finished ideas. These days I'm building production-grade AI systems in Python and the cloud, going deep on fine-tuning and agentic architectures. I read business and psychology in parallel, because great products are half engineering, half understanding people. Quiet builder, fast learner, obsessed with turning AI into things that actually create value.
+                        I'm wired for depth over breadth — one real conversation beats ten shallow ones, and one shipped project beats a hundred half-finished ideas. Alongside my studies, I lead a 4-person team as CEO, CTO & CMO at Hooshinotr.com, an educational consultancy I've helped grow to 300+ clients over four years. These days I split my time between building production-grade AI systems in Python and the cloud, and running the product, tech, and marketing side of a real business. I read business and psychology in parallel, because great products are half engineering, half understanding people. Quiet builder, fast learner, obsessed with turning ideas — technical or commercial — into things that actually create value.
                     </p>
                 </div>
 
