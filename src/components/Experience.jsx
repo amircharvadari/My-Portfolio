@@ -9,7 +9,7 @@ const experiences = [
         bullets: [
             'Lead and manage a 4-person team across product, technology, and marketing operations',
             "Oversee the company's technology stack and go-to-market strategy",
-            'Managed ~$2,000 in marketing & SEO spend over 4 months, contributing to ₺1,000,000 in revenue within 3 months',
+            'Managed marketing & SEO investment that drove strong revenue growth within months of launch',
             'Led educational content strategy and advised 300+ clients over 4 years',
         ],
     },
