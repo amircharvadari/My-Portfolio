@@ -2,7 +2,7 @@ import './Experience.css'
 
 const experiences = [
     {
-        role: 'CEO, CTO & CMO',
+        role: 'CEO & CTO',
         company: 'Hooshinotr.com',
         type: 'Educational Consultancy',
         period: '2026 — Present',
