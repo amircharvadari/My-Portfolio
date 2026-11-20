@@ -32,7 +32,7 @@ const projects = [
     },
     {
         title: 'TSP Optimization',
-        description: 'A predictive analytics model estimating medical insurance costs using Polynomial Regression and Support Vector Regression.',
+        description: 'Implemented Ant Colony Optimization (ACO) and Simulated Annealing (SA) to solve the Traveling Salesman Problem (TSP) for a logistics routing scenario. Generated synthetic city data, compared both algorithms on solution quality and runtime, and visualized results with Python.',
         tags: ['Python', 'ACO', 'SA', 'Matplotlib'],
         categories: [
             { label: 'Algorithms', color: '#e16105ff' },
