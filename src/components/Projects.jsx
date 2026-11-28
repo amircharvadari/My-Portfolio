@@ -58,7 +58,7 @@ const projects = [
             { label: 'MLOps', color: '#0a888aff' },
             { label: 'AI', color: '#1d71f8ff' },
         ],
-        link: 'https://github.com/amircharvadari',
+        link: 'https://github.com/amircharvadari/flight-delay-mlops',
     },
     {
         title: 'Intelligent Query Filtering for RAG',
